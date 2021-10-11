@@ -11,6 +11,10 @@
 		11F9251A270C79B4008852C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F92519270C79B4008852C9 /* ContentView.swift */; };
 		11F9251C270C79BC008852C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F9251B270C79BC008852C9 /* Assets.xcassets */; };
 		11F9251F270C79BC008852C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F9251E270C79BC008852C9 /* Preview Assets.xcassets */; };
+		11FFB8EB271445AD00FB7BEF /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFB8EA271445AD00FB7BEF /* FriendCell.swift */; };
+		11FFB8ED271445B600FB7BEF /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFB8EC271445B600FB7BEF /* GroupCell.swift */; };
+		11FFB8EF271445C900FB7BEF /* CircleShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFB8EE271445C900FB7BEF /* CircleShadowViewModifier.swift */; };
+		11FFB8F1271445D700FB7BEF /* AvatarImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFB8F0271445D700FB7BEF /* AvatarImageViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		11F92519270C79B4008852C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11F9251B270C79BC008852C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F9251E270C79BC008852C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11FFB8EA271445AD00FB7BEF /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		11FFB8EC271445B600FB7BEF /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		11FFB8EE271445C900FB7BEF /* CircleShadowViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShadowViewModifier.swift; sourceTree = "<group>"; };
+		11FFB8F0271445D700FB7BEF /* AvatarImageViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				11F92517270C79B4008852C9 /* VK_Client_SwiftUIApp.swift */,
 				11F92519270C79B4008852C9 /* ContentView.swift */,
+				11FFB8EA271445AD00FB7BEF /* FriendCell.swift */,
+				11FFB8EC271445B600FB7BEF /* GroupCell.swift */,
+				11FFB8EE271445C900FB7BEF /* CircleShadowViewModifier.swift */,
+				11FFB8F0271445D700FB7BEF /* AvatarImageViewBuilder.swift */,
 				11F9251B270C79BC008852C9 /* Assets.xcassets */,
 				11F9251D270C79BC008852C9 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F9251A270C79B4008852C9 /* ContentView.swift in Sources */,
+				11FFB8EF271445C900FB7BEF /* CircleShadowViewModifier.swift in Sources */,
+				11FFB8EB271445AD00FB7BEF /* FriendCell.swift in Sources */,
+				11FFB8F1271445D700FB7BEF /* AvatarImageViewBuilder.swift in Sources */,
 				11F92518270C79B4008852C9 /* VK_Client_SwiftUIApp.swift in Sources */,
+				11FFB8ED271445B600FB7BEF /* GroupCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
